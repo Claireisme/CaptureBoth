@@ -2,8 +2,8 @@
   "updated": "2026-10-29",
   "operatorName": "Eastwood Management Services Limited",
   "contactEmail": "CaptureBoth@520.ie",
-  "privacyURL": "",
-  "supportURL": "",
+  "privacyURL": "https://captureboth.520.ie/privacy",
+  "supportURL": "https://captureboth.520.ie/support",
   "localizations": {
     "en": {
       "summary": "CaptureBoth is a front-and-rear dual-camera capture app. Capture, composition and preview run on your device, without an account. The app includes no advertising, third-party analytics or tracking services, and does not automatically upload your photos, videos or audio to the developer.",
