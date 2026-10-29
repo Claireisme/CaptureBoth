@@ -1,0 +1,52 @@
+{
+  "updated": "2026-10-29",
+  "operatorName": "Eastwood Management Services Limited",
+  "contactEmail": "CaptureBoth@520.ie",
+  "privacyURL": "",
+  "supportURL": "",
+  "localizations": {
+    "en": {
+      "summary": "CaptureBoth is a front-and-rear dual-camera capture app. Capture, composition and preview run on your device, without an account. The app includes no advertising, third-party analytics or tracking services, and does not automatically upload your photos, videos or audio to the developer.",
+      "sections": [
+        {
+          "title": "1. Scope",
+          "body": "This policy applies to the CaptureBoth app. The publisher identified on the app's App Store product page provides the app and handles related privacy questions. Apple Photos, iCloud, email and third-party services you choose to use are covered by their providers' policies."
+        },
+        {
+          "title": "2. System permissions",
+          "body": "Camera: to display the front and rear camera views and capture photos and videos.\nMicrophone: to record sound with videos.\nAdd to Photos: to save captured media to the system photo library. The in-app recent-capture preview uses files saved by this app and does not scan your entire photo library.\nThe app does not request location, contacts or advertising-tracking permission. You can change permissions in iOS Settings; denying a permission affects the associated functionality."
+        },
+        {
+          "title": "3. Photos, video and audio",
+          "body": "Images and audio are processed and combined on your device. The app does not automatically send media to a developer server, perform cloud AI processing or build face-identification profiles. Files are handed to a selected system feature or another app only when you choose to share or export them."
+        },
+        {
+          "title": "4. Local storage and retention",
+          "body": "The app stores captured files, a recent-capture thumbnail, capture status and preferences such as language, theme and floating-window layout on your device. Most saved caches are automatically cleaned according to count, space and age limits. The most recent capture and unfinished, failed or uncertain saves may be retained longer to allow further processing. Capture-cache and recovery directories are marked as excluded from system backups.\nCopies saved to Photos are managed by your photo library. If you enable iCloud Photos or other system syncing, Apple and your system settings control that syncing."
+        },
+        {
+          "title": "5. Local technical information",
+          "body": "To verify files, complete saves and protect recordings, the app may keep device model, system version, file status, errors and processing timings locally. The app does not automatically transmit this information to the developer or use it for advertising profiles or cross-app tracking. If you contact support, you decide whether to include screenshots or diagnostic information."
+        },
+        {
+          "title": "6. Sharing and other services",
+          "body": "Share opens the iOS system share sheet. You choose whether to send a file, what to send and the recipient. Your selected service may handle the file under its own policy. The app does not choose recipients or send files automatically."
+        },
+        {
+          "title": "7. Deletion and controls",
+          "body": "You can delete saved, exported or shared copies in Photos or the receiving app. Deleting a Photos item does not automatically delete a local copy already held by CaptureBoth. To remove this app's local data, use Delete App in iOS Settings; Offload App may retain documents and data. Export any files you still need first. Deleting the app does not delete copies in Photos, iCloud or third-party services."
+        },
+        {
+          "title": "8. Children and family use",
+          "body": "The app is a general-purpose camera tool without a public content community, chat, advertising or user accounts. We do not actively collect children's personal information through the app. Parents and guardians can manage use through iOS permissions and Screen Time."
+        },
+        {
+          "title": "9. Updates",
+          "body": "We will update this policy and its date when the app's data practices change. You can read the policy that applies to your installed version in the app's Settings."
+        }
+      ],
+      "contactTitle": "10. Contact",
+      "contactFallback": "For privacy or data-handling questions, contact the developer at the email below. Include only the information needed to handle your request and remove any personal content you do not wish to provide."
+    }
+  }
+}

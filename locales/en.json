@@ -1,0 +1,181 @@
+{
+  "nav": [
+    "The app",
+    "Support",
+    "Privacy"
+  ],
+  "menu": "Menu",
+  "skip": "Skip to content",
+  "description": "CaptureBoth brings your iPhone's front and rear cameras together. Capture photos and video, arrange your floating window, and share your story.",
+  "eyebrow": "Two perspectives. One story.",
+  "headline": "The view.",
+  "highlight": "And you.",
+  "intro": "Capture what you see and how it feels. Bring your iPhone's front and rear cameras together in one photo or video.",
+  "explore": "Explore the moments",
+  "guide": "How to use it",
+  "download": "Get it on the App Store",
+  "coming": "Coming to the App Store",
+  "meta": [
+    "Free",
+    "No in-app purchases",
+    "Made for iPhone"
+  ],
+  "both": "The moment, from both sides",
+  "illustrative": "Actual app UI · Illustrative people and scenes",
+  "sample": "Illustrative scene",
+  "promises": [
+    "Front and rear together",
+    "Photos and video with sound",
+    "Automatically saved to Photos"
+  ],
+  "moments_eyebrow": "01 / Make room for both",
+  "moments_title": "More than the view.\nThe feeling, too.",
+  "moments_intro": "Some stories deserve another perspective. The surprise of a journey. The joy of showing someone how.",
+  "moments": [
+    [
+      "TRAVEL · EVERYDAY",
+      "The journey, with you in it.",
+      "Keep the scenery and your reaction together. No need to choose which side of the moment to capture.",
+      "travel"
+    ],
+    [
+      "SHOW · EXPLAIN",
+      "Show your process. Tell your story.",
+      "Demonstrate what you're doing while you explain it. Two perspectives, combined into one video with sound.",
+      "record"
+    ]
+  ],
+  "showcase_eyebrow": "02 / Find your own frame",
+  "showcase_title": "A little window.\nA lot of you.",
+  "tabs_label": "Explore camera features",
+  "tabs": [
+    [
+      "Make the window yours",
+      "Drag to move, pinch to resize. Hold the window to choose its shape, corners and border.",
+      "style"
+    ],
+    [
+      "Capture it. Share it.",
+      "Finished captures save to Photos automatically. Open your latest capture and share from preview.",
+      "preview"
+    ],
+    [
+      "A lighter point of view",
+      "Choose a light or dark interface in Settings. A little more room for your own style.",
+      "light"
+    ],
+    [
+      "Change the leading role",
+      "Swap which camera fills the main frame. Put another perspective at the heart of the story.",
+      "swap"
+    ]
+  ],
+  "steps_title": "Your story, in three steps.",
+  "all_help": "Visit the help page",
+  "steps": [
+    [
+      "Open the camera",
+      "Launch on a compatible iPhone and allow Camera, Microphone and Add to Photos when prompted."
+    ],
+    [
+      "Arrange both views",
+      "Choose Photo or Video. Move or resize the floating window, or swap the main camera."
+    ],
+    [
+      "Capture, save, share",
+      "Tap to capture, or tap again to stop video. After processing, your capture saves automatically. Share it from preview."
+    ]
+  ],
+  "privacy_eyebrow": "03 / Less between you and the moment",
+  "privacy_title": "Your captures.\nYour own.",
+  "privacy_intro": "Capture, composition and preview happen on your device. No account to create. No ads or third-party tracking.",
+  "privacy_points": [
+    "Photos and videos processed on-device",
+    "No account required",
+    "No ads, analytics or tracking SDKs"
+  ],
+  "read_policy": "Read the privacy policy",
+  "final_title": "Your next moment. Both sides.",
+  "final_intro": "iOS 17.2 or later · Requires an iPhone with simultaneous front-and-rear capture",
+  "devices": "Check device requirements",
+  "footer_tagline": "Keep the view. Keep yourself in it.",
+  "publisher_label": "Made by Eastwood",
+  "rights": "All rights reserved.",
+  "support_title": "A little help.\nBack to the moment.",
+  "support_intro": "From your first dual-camera capture to saving and sharing. Find the essentials here, and get back to making something.",
+  "quick_title": "Your first capture",
+  "faq_title": "Common questions",
+  "faq": [
+    [
+      "devices",
+      "Which iPhones are supported?",
+      "Requires iOS 17.2 or later and an iPhone that supports simultaneous front-and-rear camera capture. The app checks support using the device's hardware and system capabilities; meeting the minimum iOS version does not guarantee multi-camera support. iPhone 11 has been used for physical-device validation. There is currently no iPad version."
+    ],
+    [
+      "permissions",
+      "Why does the app ask for these permissions?",
+      "Camera provides both views and captures media. Microphone records video sound. Add to Photos saves completed captures. The recent-capture preview uses the app's own files and does not scan your entire photo library. You can change these permissions in iOS Settings."
+    ],
+    [
+      "save",
+      "Where do my photos and videos go?",
+      "With Add to Photos permission, completed captures are automatically added to Apple Photos after processing. The bottom-left thumbnail opens your latest capture. After stopping video, allow processing and saving to finish; the local preview can open while Photos saving completes."
+    ],
+    [
+      "save-problem",
+      "What if I can't see my capture in Photos?",
+      "Allow processing to finish, then check Add to Photos permission in iOS Settings and available device storage. Reopening the app can resume handling retained files after an interruption. Keep the app and its data until an important capture has saved successfully."
+    ],
+    [
+      "window",
+      "How do I change the floating window?",
+      "Drag the window to move it, or pinch inside it to resize. Tap to cycle shapes, or hold to open the full style settings for size, shape, corners and borders. Stop recording before changing border or corner-radius settings."
+    ],
+    [
+      "sharing",
+      "How do I share a capture?",
+      "Tap the bottom-left thumbnail to open your latest capture, then Share at the top right. Choose an app or destination in the system share sheet and confirm the action yourself. Tap the video playback area to show playback controls."
+    ],
+    [
+      "language-theme",
+      "Where are language and theme settings?",
+      "Open the top-right gear. Language offers English, Simplified Chinese and Follow system. Theme offers light and dark. Settings also contains the privacy policy, app version and update date. Website languages are separate from the app’s language options."
+    ],
+    [
+      "delete",
+      "How can I delete local data?",
+      "Delete photo-library copies in Apple Photos. To remove app-local data, use Delete App in iOS Settings; Offload App may retain documents and data. Export anything you still need first. iCloud and shared copies are managed by the respective services."
+    ]
+  ],
+  "contact_eyebrow": "Need a hand?",
+  "contact_title": "Write to us.",
+  "contact_intro": "Tell us what happened. Your device and app version help us understand the problem.",
+  "publisher": "Publisher",
+  "feedback_title": "Prepare your feedback",
+  "feedback_intro": "Copy this checklist, fill it in and email it to support. Include only the information needed to understand the issue.",
+  "feedback_template": "Device model:\niOS version:\nCaptureBoth version:\nSteps before the issue:\nWhat happened / error message:\nExpected result:",
+  "copy": "Copy feedback checklist",
+  "copy_success": "Copied. Fill it in and send it by email.",
+  "copy_failure": "Automatic copying is unavailable. Please select and copy the text above.",
+  "policy_title": "Privacy,\nin plain words.",
+  "policy_intro": "How CaptureBoth uses system permissions, handles your captures, and lets you control and delete local data.",
+  "updated": "Last updated",
+  "toc": "On this page",
+  "website_title": "11. Website visits and support email",
+  "website_body": "This website serves static product information, help and privacy pages. It has no login, upload form, advertising or third-party analytics scripts and does not read your camera, microphone or photos.\nWhen deployed on Cloudflare Pages, the hosting service may process technical information such as IP addresses, requests and traffic to deliver pages, secure the service and operate it. This is separate from the app's on-device capture processing.\nIf you choose to email support, we receive the email address, message and attachments you provide, to handle your request and necessary follow-up. Please do not send unrelated private media or sensitive information. To request correction or deletion of personal information in support correspondence, contact the support email; information required by law may be retained.",
+  "cloudflare_policy": "Cloudflare's privacy policy",
+  "back_home": "Back to the app",
+  "missing_title": "This page missed the frame.",
+  "missing_intro": "It may have moved. Head back to the homepage and discover CaptureBoth.",
+  "language_label": "Language",
+  "main_nav_label": "Main navigation",
+  "footer_nav_label": "Footer navigation",
+  "image_alt": {
+    "travel": "Dual-camera travel photo",
+    "record": "Dual-camera recording",
+    "style": "Floating-window settings",
+    "preview": "Capture preview and sharing",
+    "light": "Light camera interface",
+    "swap": "Swapped camera views"
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "nav": [
+    "La app",
+    "Ayuda",
+    "Privacidad"
+  ],
+  "menu": "Menú",
+  "skip": "Ir al contenido",
+  "language_label": "Idioma",
+  "main_nav_label": "Navegación principal",
+  "footer_nav_label": "Navegación del pie de página",
+  "description": "CaptureBoth une las cámaras delantera y trasera de tu iPhone. Haz fotos, graba vídeos, personaliza la ventana y comparte tus momentos.",
+  "eyebrow": "Dos perspectivas. Una historia.",
+  "headline": "El paisaje.",
+  "highlight": "Y tú.",
+  "intro": "Captura lo que ves y lo que sientes. Reúne las cámaras delantera y trasera de tu iPhone en una sola foto o vídeo.",
+  "explore": "Descubre las posibilidades",
+  "guide": "Cómo se usa",
+  "download": "Descargar en el App Store",
+  "coming": "Próximamente en el App Store",
+  "meta": [
+    "Gratis",
+    "Sin compras integradas",
+    "Para iPhone"
+  ],
+  "both": "El momento, desde ambos lados",
+  "illustrative": "Interfaz real · Personas y escenas ilustrativas",
+  "sample": "Escena ilustrativa",
+  "promises": [
+    "Cámara delantera y trasera a la vez",
+    "Fotos y vídeos con sonido",
+    "Guardado automático en Fotos"
+  ],
+  "moments_eyebrow": "01 / Espacio para ambos lados",
+  "moments_title": "Más que el paisaje.\nTambién la emoción.",
+  "moments_intro": "Algunas historias merecen otra perspectiva. La sorpresa de un viaje. La alegría de enseñar algo.",
+  "moments": [
+    [
+      "VIAJES · DÍA A DÍA",
+      "El viaje, contigo en la imagen.",
+      "Conserva el paisaje y tu reacción juntos, sin elegir qué lado del momento capturar.",
+      "travel"
+    ],
+    [
+      "MUESTRA · EXPLICA",
+      "Muestra lo que haces. Cuéntalo.",
+      "Demuestra lo que estás haciendo mientras lo explicas. Dos perspectivas en un vídeo con sonido.",
+      "record"
+    ]
+  ],
+  "showcase_eyebrow": "02 / Tu forma de encuadrar",
+  "showcase_title": "Una pequeña ventana.\nMucho de ti.",
+  "tabs_label": "Explorar las funciones de captura",
+  "tabs": [
+    [
+      "Una ventana a tu medida",
+      "Arrastra para moverla y usa dos dedos para cambiar el tamaño. Mantén pulsado para elegir forma, esquinas y borde.",
+      "style"
+    ],
+    [
+      "Captura. Comparte.",
+      "Las capturas terminadas se guardan automáticamente en Fotos. Abre la más reciente y compártela desde la vista previa.",
+      "preview"
+    ],
+    [
+      "Claro u oscuro",
+      "Elige una interfaz clara u oscura en los ajustes, según tu estilo.",
+      "light"
+    ],
+    [
+      "Cambia de protagonista",
+      "Intercambia la cámara principal y coloca otra perspectiva en el centro de la historia.",
+      "swap"
+    ]
+  ],
+  "steps_title": "Tu historia, en tres pasos.",
+  "all_help": "Consultar la ayuda",
+  "steps": [
+    [
+      "Abre la cámara",
+      "Inicia la app en un iPhone compatible y permite la cámara, el micrófono y añadir a Fotos cuando se solicite."
+    ],
+    [
+      "Organiza ambas vistas",
+      "Elige Foto o Vídeo. Mueve o cambia el tamaño de la ventana, o intercambia la cámara principal."
+    ],
+    [
+      "Captura, guarda y comparte",
+      "Toca para capturar y de nuevo para detener el vídeo. Tras el procesamiento, se guarda automáticamente. Comparte desde la vista previa."
+    ]
+  ],
+  "privacy_eyebrow": "03 / Más cerca del momento",
+  "privacy_title": "Tus capturas.\nSolo tuyas.",
+  "privacy_intro": "La captura, la composición y la vista previa se realizan en tu dispositivo. Sin cuentas, anuncios ni seguimiento de terceros.",
+  "privacy_points": [
+    "Fotos y vídeos procesados en el dispositivo",
+    "No necesitas una cuenta",
+    "Sin anuncios, analítica ni SDK de seguimiento"
+  ],
+  "read_policy": "Leer la política de privacidad",
+  "final_title": "Tu próximo momento. Ambos lados.",
+  "final_intro": "iOS 17.2 o posterior · Requiere un iPhone con captura delantera y trasera simultánea",
+  "devices": "Comprobar compatibilidad",
+  "footer_tagline": "Conserva el paisaje. Y tu lugar en él.",
+  "publisher_label": "Creado por Eastwood",
+  "rights": "Todos los derechos reservados.",
+  "support_title": "Un poco de ayuda.\nY vuelve al momento.",
+  "support_intro": "Desde tu primera captura con dos cámaras hasta guardar y compartir: aquí encontrarás los pasos esenciales.",
+  "quick_title": "Tu primera captura",
+  "faq_title": "Preguntas frecuentes",
+  "faq": [
+    [
+      "devices",
+      "¿Qué iPhone son compatibles?",
+      "Necesitas iOS 17.2 o posterior y un iPhone que admita captura simultánea con las cámaras delantera y trasera. La app comprueba las capacidades del hardware y del sistema; la versión mínima de iOS no garantiza esta función. Se ha usado un iPhone 11 para validar la app en un dispositivo real. Actualmente no hay versión para iPad."
+    ],
+    [
+      "permissions",
+      "¿Por qué se solicitan estos permisos?",
+      "La cámara proporciona ambas vistas y captura fotos y vídeos. El micrófono graba el sonido del vídeo. El permiso para añadir a Fotos guarda las capturas terminadas. La vista previa reciente usa los archivos de la app y no analiza toda tu fototeca. Puedes cambiar los permisos en los ajustes de iOS."
+    ],
+    [
+      "save",
+      "¿Dónde se guardan mis fotos y vídeos?",
+      "Con el permiso para añadir a Fotos, las capturas terminadas se añaden automáticamente a Fotos después del procesamiento. La miniatura inferior izquierda abre la más reciente. Tras detener un vídeo, espera a que finalicen el procesamiento y el guardado; la vista previa local puede abrirse mientras se completa el guardado en Fotos."
+    ],
+    [
+      "save-problem",
+      "¿Qué hago si la captura no aparece en Fotos?",
+      "Espera a que termine el procesamiento y comprueba el permiso para añadir a Fotos en los ajustes de iOS y el almacenamiento disponible. Si hubo una interrupción, volver a abrir la app puede reanudar el procesamiento de archivos conservados. Mantén la app y sus datos hasta guardar correctamente una captura importante."
+    ],
+    [
+      "window",
+      "¿Cómo cambio la ventana flotante?",
+      "Arrástrala para moverla y usa dos dedos dentro para cambiar el tamaño. Tócala para cambiar de forma o mantén pulsado para ajustar tamaño, forma, esquinas y borde. Detén la grabación antes de modificar el borde o el radio de las esquinas."
+    ],
+    [
+      "sharing",
+      "¿Cómo comparto una captura?",
+      "Toca la miniatura inferior izquierda y después el botón de compartir en la esquina superior derecha. Elige una app o un destino en la hoja de compartir de iOS y confirma la acción. Toca el área del vídeo para mostrar los controles de reproducción."
+    ],
+    [
+      "language-theme",
+      "¿Dónde cambio el idioma y el tema de la app?",
+      "Abre el engranaje de arriba a la derecha. La app ofrece inglés, chino simplificado y la opción de seguir el sistema. El tema puede ser claro u oscuro. También puedes consultar la política de privacidad, la versión y la fecha de actualización. Los idiomas del sitio web son independientes de los de la app."
+    ],
+    [
+      "delete",
+      "¿Cómo elimino los datos locales?",
+      "Elimina las copias de la fototeca en Fotos. Para borrar los datos locales de la app, elige Eliminar app en los ajustes de iOS; Desinstalar app puede conservar documentos y datos. Exporta antes lo que necesites. Las copias de iCloud y las compartidas se gestionan mediante los servicios correspondientes."
+    ]
+  ],
+  "contact_eyebrow": "¿Necesitas ayuda?",
+  "contact_title": "Escríbenos.",
+  "contact_intro": "Cuéntanos qué ocurrió. El modelo del dispositivo y la versión de la app nos ayudan a entender el problema.",
+  "publisher": "Editor",
+  "feedback_title": "Prepara tu consulta",
+  "feedback_intro": "Copia esta lista, rellénala y envíala por correo al equipo de ayuda. Incluye solo la información necesaria.",
+  "feedback_template": "Modelo del dispositivo:\nVersión de iOS:\nVersión de CaptureBoth:\nPasos previos al problema:\nQué ocurrió / mensaje de error:\nResultado esperado:",
+  "copy": "Copiar la lista",
+  "copy_success": "Copiada. Rellénala y envíala por correo.",
+  "copy_failure": "La copia automática no está disponible. Selecciona y copia el texto de arriba.",
+  "policy_title": "La privacidad,\ncon claridad.",
+  "policy_intro": "Cómo usa CaptureBoth los permisos del sistema, procesa tus capturas y te permite controlar y eliminar los datos locales.",
+  "updated": "Última actualización",
+  "toc": "En esta página",
+  "website_title": "11. Visitas al sitio y correos de ayuda",
+  "website_body": "Este sitio ofrece páginas estáticas de producto, ayuda y privacidad. No tiene inicio de sesión, formularios de carga, anuncios ni scripts de analítica de terceros, y no accede a la cámara, el micrófono o las fotos.\nAl alojarse en Cloudflare Pages, el proveedor puede procesar información técnica como direcciones IP, solicitudes y tráfico para entregar las páginas, proteger y operar el servicio. Esto es independiente del procesamiento de capturas en el dispositivo.\nSi escribes al equipo de ayuda, recibimos la dirección de correo, el mensaje y los adjuntos que aportes para resolver tu consulta y realizar el seguimiento necesario. No envíes medios privados ni información sensible sin relación con el problema. Puedes solicitar la rectificación o eliminación de los datos personales de estas comunicaciones escribiendo al correo de ayuda; puede conservarse la información exigida por ley.",
+  "cloudflare_policy": "Política de privacidad de Cloudflare",
+  "back_home": "Volver a la app",
+  "missing_title": "Esta página quedó fuera de cuadro.",
+  "missing_intro": "Puede que haya cambiado de lugar. Vuelve al inicio para descubrir CaptureBoth.",
+  "image_alt": {
+    "travel": "Foto de viaje con las dos cámaras",
+    "record": "Grabación con las dos cámaras",
+    "style": "Ajustes de la ventana flotante",
+    "preview": "Vista previa y uso compartido",
+    "light": "Interfaz clara de la cámara",
+    "swap": "Vistas delantera y trasera intercambiadas"
+  },
+  "privacy": {
+    "summary": "CaptureBoth es una app de captura con las cámaras delantera y trasera. La captura, la composición y la vista previa se realizan en tu dispositivo, sin cuenta. La app no incluye publicidad, analítica ni seguimiento de terceros, y no sube automáticamente tus fotos, vídeos o audio al desarrollador.",
+    "sections": [
+      {
+        "title": "1. Ámbito",
+        "body": "Esta política se aplica a la app CaptureBoth. El editor identificado en la ficha del App Store proporciona la app y atiende las consultas de privacidad. Fotos, iCloud, el correo y los servicios de terceros que elijas están sujetos a las políticas de sus proveedores."
+      },
+      {
+        "title": "2. Permisos del sistema",
+        "body": "Cámara: mostrar las vistas delantera y trasera y capturar fotos y vídeos.\nMicrófono: grabar sonido con los vídeos.\nAñadir a Fotos: guardar capturas en la fototeca del sistema. La vista previa reciente usa archivos de la app y no analiza toda tu fototeca.\nLa app no solicita ubicación, contactos ni seguimiento publicitario. Puedes cambiar los permisos en los ajustes de iOS; rechazarlos afecta a la función correspondiente."
+      },
+      {
+        "title": "3. Fotos, vídeos y audio",
+        "body": "Las imágenes y el sonido se procesan y combinan en tu dispositivo. La app no envía automáticamente medios a un servidor del desarrollador, no realiza procesamiento de IA en la nube ni crea perfiles de identificación facial. Los archivos solo pasan a una función del sistema o a otra app cuando eliges compartirlos o exportarlos."
+      },
+      {
+        "title": "4. Almacenamiento local y conservación",
+        "body": "La app guarda en tu dispositivo capturas, una miniatura reciente, el estado de captura y preferencias como idioma, tema y disposición de la ventana. La mayoría de las cachés guardadas se limpian según límites de cantidad, espacio y antigüedad. La última captura y los guardados incompletos, fallidos o inciertos pueden conservarse más tiempo para continuar su procesamiento. Las carpetas de caché de captura y recuperación se excluyen de las copias de seguridad del sistema.\nLas copias en Fotos se gestionan mediante la fototeca. Si activas Fotos en iCloud u otra sincronización del sistema, Apple y tus ajustes controlan ese proceso."
+      },
+      {
+        "title": "5. Información técnica local",
+        "body": "Para verificar archivos, completar guardados y proteger las grabaciones, la app puede conservar localmente el modelo del dispositivo, la versión del sistema, el estado de archivos, los errores y los tiempos de procesamiento. No transmite automáticamente estos datos al desarrollador ni los usa para perfiles publicitarios o seguimiento entre apps. Si contactas con ayuda, decides si adjuntas capturas de pantalla o diagnósticos."
+      },
+      {
+        "title": "6. Compartir y otros servicios",
+        "body": "Compartir abre la hoja de compartir de iOS. Tú decides si envías un archivo, cuál y a quién. El servicio elegido puede tratarlo conforme a su propia política. La app no elige destinatarios ni envía archivos automáticamente."
+      },
+      {
+        "title": "7. Eliminación y control",
+        "body": "Puedes eliminar copias guardadas, exportadas o compartidas en Fotos o en la app receptora. Borrar un elemento en Fotos no elimina automáticamente una copia local ya conservada por CaptureBoth. Para borrar los datos locales, usa Eliminar app en los ajustes de iOS; Desinstalar app puede conservar documentos y datos. Exporta antes los archivos necesarios. Eliminar la app no borra copias en Fotos, iCloud o servicios de terceros."
+      },
+      {
+        "title": "8. Menores y uso familiar",
+        "body": "La app es una herramienta de cámara de uso general, sin comunidad pública, chat, publicidad ni cuentas. No recopilamos activamente datos personales de menores mediante la app. Padres y tutores pueden gestionar el uso con los permisos de iOS y Tiempo de uso."
+      },
+      {
+        "title": "9. Actualizaciones",
+        "body": "Actualizaremos esta política y su fecha cuando cambie el tratamiento de datos de la app. Puedes consultar la política aplicable a tu versión instalada en los ajustes de la app."
+      }
+    ],
+    "contactTitle": "10. Contacto",
+    "contactFallback": "Para consultas sobre privacidad o tratamiento de datos, escribe al desarrollador en el correo siguiente. Incluye solo lo necesario y elimina cualquier contenido personal que no quieras proporcionar."
+  },
+  "privacy_source_sha256": "20859eef69681b2561ec21dfcff4ed8d66cf77d9262ed9e1dfd3e8d443afd504"
+}
