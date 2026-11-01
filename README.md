@@ -9,7 +9,7 @@
 1. 登录 Cloudflare Dashboard，进入 **Workers & Pages**。
 2. 点击 **Create application**，进入 **Pages** 的上传静态文件入口（Direct Upload / Drag and drop）。
 3. 创建项目，例如 `captureboth`；实际项目名按账号内可用情况选择。
-4. 上传本目录生成的 `release/CaptureBoth-Cloudflare-Pages.zip`，或直接拖入 `dist/`。
+4. 上传仓库 `release/CaptureBoth-Cloudflare-Pages.zip`，或直接拖入本目录的 `dist/`。
 5. 点击 **Deploy site / Save and Deploy**，使用 Cloudflare 返回的真实 `pages.dev` 地址访问网站。
 6. 检查首页、语言切换、支持页面、隐私页面以及邮箱链接。
 
@@ -37,12 +37,12 @@ ZIP 根目录直接包含 `index.html`、`assets/`、`fr/`、`it/`、`de/` 等�
 
 Cloudflare Pages 可能将 `.html` 地址规范化为无扩展名地址，使用浏览器最终显示的完整 HTTPS 地址填写 App Store 即可。旧的 `/privacy-en.html`、`/privacy-zh-Hans.html`、`/support-en.html`、`/support-zh-Hans.html` 已在 `_redirects` 中映射到相应页面。
 
-## 取得域名和 App Store 链接后
+## 站点与 App Store 配置
 
 编辑 `site.config.json`：
 
 - `siteURL`：真实站点来源地址，例如实际的 `https://…pages.dev`，不含子目录。空值时不生成虚构的 canonical 或 sitemap 地址。
-- `appStoreURL`：真实 App Store 产品链接。尚未配置时显示“即将登陆 App Store”；配置后底部入口变成真实下载链接。
+- `appStoreURL`：已配置的 App Store 产品链接，显示在首页首屏、导航和底部。清空时首页显示“即将登陆 App Store”。
 - `brandPublisher`：简短品牌署名，当前为 Eastwood。
 
 公开公司名、邮箱和英文 App 隐私政策正文来自主工程 `CaptureBoth/Resources/PrivacyPolicy.json`。独立网站仓库使用 `data/privacy-policy.json` 中的英文快照，不依赖 iOS 工程。后续 App 政策有更新时，应同步快照并复核译文。其余语言的译文保存在 `locales/`，记录了英文原文摘要值；原文变化时构建会要求复核译文。网站额外提供“网站访问与支持邮件”章节，说明 Cloudflare 托管和用户主动邮件反馈的数据处理。

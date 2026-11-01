@@ -101,11 +101,12 @@ def header(language, page):
     links = ''.join(f'<a href="{url(language, key)}" class="{"active" if key == page else ""}"' + (' aria-current="page"' if key == page else '') + f'>{t["nav"][i]}</a>' for i, key in enumerate(["home", "support", "privacy"]))
     languages = ''.join(f'<a href="{url(code, page)}" lang="{code}" hreflang="{code}" data-language-link="{code}"' + (' aria-current="true"' if code == language else '') + f'>{e(info["name"])}</a>' for code, info in LANGUAGES.items())
     switch = f'<details class="language-picker"><summary aria-label="{e(t["language_label"])}: {e(LANGUAGES[language]["name"])}"><span>{e(LANGUAGES[language]["name"])}</span></summary><nav aria-label="{e(t["language_label"])}">{languages}</nav></details>'
-    cta = f'<a class="nav-cta" href="{url(language, "support")}#devices">{t["devices"]}{icon("arrow")}</a>'
+    cta = primary_cta(t, "nav-cta") if CONFIG["appStoreURL"] else f'<a class="nav-cta" href="{url(language, "support")}#devices">{t["devices"]}{icon("arrow")}</a>'
+    mobile_cta = primary_cta(t, "mobile-cta") if CONFIG["appStoreURL"] else ""
     return f'''<a class="skip-link" href="#main">{t['skip']}</a><header class="site-header"><div class="wrap header-row">
 <a class="brand" href="{url(language, 'home')}" aria-label="CaptureBoth"><img src="{asset('app-icon.png')}" alt="" width="43" height="43">CaptureBoth</a>
 <div class="header-controls"><nav class="desktop-nav" aria-label="{e(t['main_nav_label'])}">{links}{cta}</nav>{switch}
-<details class="mobile-nav"><summary aria-label="{e(t['menu'])}">{icon('menu')}</summary><nav aria-label="{e(t['main_nav_label'])}">{links}</nav></details></div></div></header>'''
+<details class="mobile-nav"><summary aria-label="{e(t['menu'])}">{icon('menu')}</summary><nav aria-label="{e(t['main_nav_label'])}">{links}{mobile_cta}</nav></details></div></div></header>'''
 
 
 def footer(language):
@@ -119,7 +120,7 @@ def footer(language):
 def shell(language, page, body):
     t = COPY[language]
     description = t["description"] if page == "home" else t["support_intro"] if page == "support" else t["policy_intro"]
-    title = "CaptureBoth — " + t["headline"] + " " + t["highlight"] if page == "home" else t["nav"][["home", "support", "privacy"].index(page)] + " · CaptureBoth"
+    title = "CaptureBoth: Dual Camera — " + t["headline"] + " " + t["highlight"] if page == "home" else t["nav"][["home", "support", "privacy"].index(page)] + " · CaptureBoth"
     canonical = ""
     if CONFIG["siteURL"]:
         origin = CONFIG["siteURL"].rstrip("/")
@@ -139,14 +140,16 @@ def home(language):
     panels = ''.join(f'<figure role="tabpanel" id="panel-{row[2]}" aria-labelledby="tab-{row[2]}" tabindex="0">{phone(language,row[2])}<figcaption>{row[0]}<br>{t["illustrative"]}</figcaption></figure>' for row in t["tabs"])
     steps = ''.join(f'<article class="step"><span class="number">0{i+1}</span><h3>{row[0]}</h3><p>{row[1]}</p></article>' for i, row in enumerate(t["steps"]))
     points = ''.join(f'<li>{icon(name)}{text}</li>' for name, text in zip(["lock", "user", "clean"], t["privacy_points"]))
-    return shell(language, "home", f'''<main id="main"><section class="wrap hero"><div class="hero-copy"><p class="eyebrow"><span class="dot"></span>{t['eyebrow']}</p><h1>{t['headline']}<br><span>{t['highlight']}</span></h1><p class="hero-intro">{t['intro']}</p><div class="hero-actions"><a class="button" href="#moments">{t['explore']}{icon('arrow')}</a><a class="text-link" href="{url(language,'support')}">{t['guide']}</a></div><div class="hero-meta">{''.join('<span>'+v+'</span>' for v in t['meta'])}</div></div>
+    hero_cta = primary_cta(t) if CONFIG["appStoreURL"] else f'<a class="button" href="#moments">{t["explore"]}{icon("arrow")}</a>'
+    hero_secondary = f'<a class="text-link" href="#moments">{t["explore"]}</a>' if CONFIG["appStoreURL"] else f'<a class="text-link" href="{url(language, "support")}">{t["guide"]}</a>'
+    return shell(language, "home", f'''<main id="main"><section class="wrap hero"><div class="hero-copy"><p class="eyebrow"><span class="dot"></span>{t['eyebrow']}</p><h1>{t['headline']}<br><span>{t['highlight']}</span></h1><p class="hero-intro">{t['intro']}</p><div class="hero-actions">{hero_cta}{hero_secondary}</div><div class="hero-meta">{''.join('<span>'+v+'</span>' for v in t['meta'])}</div></div>
 <div class="hero-art"><div class="hero-halo" aria-hidden="true"></div>{phone(language,'travel','phone-main',True)}{phone(language,'record','phone-secondary',True)}<div class="lens-mark">{icon('dual')}{t['both']}</div><p class="art-note">{t['illustrative']}</p></div></section>
 <div class="wrap promise-line">{promises}</div>
 <section class="wrap" id="moments"><div class="section-head"><div><p class="eyebrow">{t['moments_eyebrow']}</p><h2>{nl(t['moments_title'])}</h2></div><p>{t['moments_intro']}</p></div><div class="moments-grid">{moments}</div></section>
 <section class="wrap section-space showcase" data-showcase><div><p class="eyebrow">{t['showcase_eyebrow']}</p><h2>{nl(t['showcase_title'])}</h2><div class="showcase-tabs" role="tablist" aria-label="{t['tabs_label']}" aria-orientation="vertical">{tabs}</div></div><div class="showcase-stage">{panels}</div></section>
 <section class="wrap simple-steps"><div class="steps-title"><h2>{t['steps_title']}</h2><a class="text-link" href="{url(language,'support')}">{t['all_help']}{icon('arrow')}</a></div><div class="steps-grid">{steps}</div></section>
 <section class="wrap privacy-band"><div><p class="eyebrow">{t['privacy_eyebrow']}</p><h2>{nl(t['privacy_title'])}</h2><p>{t['privacy_intro']}</p><a class="text-link" href="{url(language,'privacy')}">{t['read_policy']}{icon('arrow')}</a></div><ul class="privacy-points">{points}</ul></section>
-<section class="wrap final-cta"><div><h2>{t['final_title']}</h2><p>{t['final_intro']}</p></div>{primary_cta(t)}</section></main>''')
+<section class="wrap final-cta"><div><h2>{t['final_title']}</h2><p>{t['final_intro']}</p><a class="text-link device-link" href="{url(language,'support')}#devices">{t['devices']}{icon('arrow')}</a></div>{primary_cta(t)}</section></main>''')
 
 
 def support(language):

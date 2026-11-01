@@ -19,6 +19,7 @@ class Page(HTMLParser):
         super().__init__()
         self.links, self.ids, self.h1s, self.lang, self.images = [], [], 0, None, []
         self.language_links = {}
+        self.anchors = []
         self.feed(source)
 
     def handle_starttag(self, tag, attrs):
@@ -35,6 +36,7 @@ class Page(HTMLParser):
             self.language_links[code] = values["href"]
         for attr in ["href", "src"]:
             if attr in values: self.links.append(values[attr])
+        if tag == "a": self.anchors.append(values)
         if tag == "img":
             assert all(key in values for key in ["alt", "width", "height"]), "Image needs alt and dimensions"
             self.images.append(values)
@@ -88,6 +90,14 @@ def main():
                 target = file
             if parts.fragment:
                 assert target in parsed and unquote(parts.fragment) in parsed[target].ids, (file, link)
+    if CONFIG["appStoreURL"]:
+        for lang in LANGUAGES:
+            file = resolve(url(lang, "home"))
+            source = file.read_text()
+            store_links = [a for a in parsed[file].anchors if a.get("href") == CONFIG["appStoreURL"]]
+            assert len(store_links) >= 4, (file, "Missing App Store download entry")
+            assert all(a.get("target") == "_blank" and "noopener" in a.get("rel", "").split() for a in store_links)
+            assert html.escape(COPY[lang]["coming"]) not in source, (file, "Stale launch status")
     policy = json.loads(POLICY_PATH.read_text())
     for lang, content in PRIVACY.items():
         file = resolve(url(lang, "privacy"))
