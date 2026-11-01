@@ -221,5 +221,8 @@
     "contactTitle": "10. お問い合わせ",
     "contactFallback": "プライバシーやデータの取り扱いに関するご質問は、下記メールアドレスへご連絡ください。対応に必要な情報のみを記載し、提供したくない個人的な内容は取り除いてください。"
   },
-  "privacy_source_sha256": "20859eef69681b2561ec21dfcff4ed8d66cf77d9262ed9e1dfd3e8d443afd504"
+  "privacy_source_sha256": "20859eef69681b2561ec21dfcff4ed8d66cf77d9262ed9e1dfd3e8d443afd504",
+  "free_title": "完全無料",
+  "free_features": "すべての機能が使える",
+  "free_purchases": "アプリ内課金なし"
 }

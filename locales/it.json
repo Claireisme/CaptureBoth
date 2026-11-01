@@ -221,5 +221,8 @@
     "contactTitle": "10. Contatti",
     "contactFallback": "Per domande sulla privacy o sul trattamento dei dati, contatta lo sviluppatore all’e-mail seguente. Includi solo le informazioni necessarie e rimuovi i contenuti personali che non desideri fornire."
   },
-  "privacy_source_sha256": "20859eef69681b2561ec21dfcff4ed8d66cf77d9262ed9e1dfd3e8d443afd504"
+  "privacy_source_sha256": "20859eef69681b2561ec21dfcff4ed8d66cf77d9262ed9e1dfd3e8d443afd504",
+  "free_title": "Completamente gratis",
+  "free_features": "Tutte le funzionalità incluse",
+  "free_purchases": "Nessun acquisto in-app"
 }

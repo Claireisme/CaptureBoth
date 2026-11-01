@@ -221,5 +221,8 @@
     "contactTitle": "10. 문의",
     "contactFallback": "개인정보 또는 데이터 처리에 관한 문의는 아래 이메일로 개발자에게 연락하세요. 처리에 필요한 정보만 포함하고 제공하고 싶지 않은 개인적인 내용은 제거해 주세요."
   },
-  "privacy_source_sha256": "20859eef69681b2561ec21dfcff4ed8d66cf77d9262ed9e1dfd3e8d443afd504"
+  "privacy_source_sha256": "20859eef69681b2561ec21dfcff4ed8d66cf77d9262ed9e1dfd3e8d443afd504",
+  "free_title": "완전 무료",
+  "free_features": "모든 기능 이용 가능",
+  "free_purchases": "앱 내 구입 없음"
 }

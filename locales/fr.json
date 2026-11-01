@@ -221,5 +221,8 @@
     "contactTitle": "10. Contact",
     "contactFallback": "Pour toute question de confidentialité ou de traitement des données, contactez le développeur à l’adresse ci-dessous. Fournissez seulement les informations nécessaires et retirez tout contenu personnel que vous ne souhaitez pas communiquer."
   },
-  "privacy_source_sha256": "20859eef69681b2561ec21dfcff4ed8d66cf77d9262ed9e1dfd3e8d443afd504"
+  "privacy_source_sha256": "20859eef69681b2561ec21dfcff4ed8d66cf77d9262ed9e1dfd3e8d443afd504",
+  "free_title": "Entièrement gratuit",
+  "free_features": "Toutes les fonctionnalités incluses",
+  "free_purchases": "Aucun achat intégré"
 }

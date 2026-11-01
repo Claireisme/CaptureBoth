@@ -177,5 +177,8 @@
     "preview": "Capture preview and sharing",
     "light": "Light camera interface",
     "swap": "Swapped camera views"
-  }
+  },
+  "free_title": "Completely free",
+  "free_features": "All features included",
+  "free_purchases": "No in-app purchases"
 }

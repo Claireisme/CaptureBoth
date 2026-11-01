@@ -221,5 +221,8 @@
     "contactTitle": "10. 聯絡開發者",
     "contactFallback": "若有隱私或資料處理問題，請透過下方信箱聯絡開發者。請只提供處理問題所需的資訊，並移除不希望提供的個人內容。"
   },
-  "privacy_source_sha256": "20859eef69681b2561ec21dfcff4ed8d66cf77d9262ed9e1dfd3e8d443afd504"
+  "privacy_source_sha256": "20859eef69681b2561ec21dfcff4ed8d66cf77d9262ed9e1dfd3e8d443afd504",
+  "free_title": "完全免費",
+  "free_features": "所有功能都可使用",
+  "free_purchases": "無 App 內購買"
 }
