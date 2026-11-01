@@ -77,4 +77,4 @@ python3 -m http.server 4173 --bind 127.0.0.1 --directory dist
 - 新增语言仅用于网站。App 本身仍支持英文与简体中文，帮助页已明确说明；不会为网站新语言虚构本地化的 App 界面截图。所有网站语言均使用英文 App 截图，繁体中文页已标注画面语言。
 - 双摄设备要求按实际 App 能力填写：iOS 17.2+，需要支持同时前后采集的实体 iPhone；iPhone 11 已用于实机验证。不宣称所有 iPhone 均支持。
 
-当前交付为本地网站与 Cloudflare 上传包，未替用户创建 Cloudflare 项目或执行公网部署。
+生产站点为 https://captureboth.520.ie，Cloudflare Pages 使用 GitHub 仓库的 main 分支构建并部署。请保持 Cloudflare GitHub 应用对该仓库的访问权限。
